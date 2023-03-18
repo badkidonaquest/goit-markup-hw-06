@@ -450,7 +450,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop -hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
           <svg width="8" height="8" class="modal-close">
@@ -466,7 +466,7 @@
               <span>Name</span>
               <div class="form-wrapper">
                 <input
-                  class="footer-form-input"
+                  class="modal-form-input"
                   type="text"
                   id="name"
                   required
@@ -481,7 +481,7 @@
               <span>Phone</span>
               <div class="form-wrapper">
                 <input
-                  class="footer-form-input"
+                  class="modal-form-input"
                   type="phone"
                   id="phone"
                   required
@@ -496,7 +496,7 @@
               <span>Email</span>
               <div class="form-wrapper">
                 <input
-                  class="footer-form-input"
+                  class="modal-form-input"
                   type="email"
                   id="email"
                   required
@@ -517,9 +517,24 @@
               ></textarea>
             </label>
           </div>
-          <p class="form-text">
-            I accept the terms and conditions of the <span><a href="#" class="form-link">Privacy Policy</a></span>
-          </p>
+          <div class="form-group checkbox-form">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="policy"
+              id="policy"
+              value="accepted"
+              required
+            />
+            <label class="checkbox-label" for="policy">
+              <span>
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use href="images/icons.svg#icon-check"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="#" class="form-link">Privacy Policy</a>
+            </label>
+          </div>
           <button type="submit" class="modal-form-btn form-btn">Send</button>
         </form>
       </div>
