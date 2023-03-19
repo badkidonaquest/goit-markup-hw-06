@@ -385,7 +385,7 @@
 
     <footer class="footer">
       <div class="footer-container container">
-        <div>
+        <div class="footer-logo">
           <a href="./index.html" class="logo"
             ><span class="logo-purple">Web</span
             ><span class="logo-white">Studio</span></a
@@ -450,61 +450,51 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop -hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
           <svg width="8" height="8" class="modal-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h3 class="modal-title">
-          Leave your contacts and we will call you back
-        </h3>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="form-group">
-            <label class="form-label" for="name">
-              <span>Name</span>
-              <div class="form-wrapper">
-                <input
-                  class="modal-form-input"
-                  type="text"
-                  id="name"
-                  required
-                />
-                <svg width="18" height="24" class="form-icon">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg></div
-            ></label>
+            <label class="form-label" for="name"> <span>Name</span></label>
+            <div class="form-wrapper">
+              <input class="modal-form-input" type="text" id="name" required />
+              <svg width="18" height="24" class="form-icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-group">
-            <label class="form-label" for="phone">
-              <span>Phone</span>
-              <div class="form-wrapper">
-                <input
-                  class="modal-form-input"
-                  type="phone"
-                  id="phone"
-                  required
-                />
-                <svg width="18" height="24" class="form-icon">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg></div
-            ></label>
+            <label class="form-label" for="phone"> <span>Phone</span></label>
+            <div class="form-wrapper">
+              <input
+                class="modal-form-input"
+                type="number"
+                id="phone"
+                required
+              />
+              <svg width="18" height="24" class="form-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-group">
-            <label class="form-label" for="email">
-              <span>Email</span>
-              <div class="form-wrapper">
-                <input
-                  class="modal-form-input"
-                  type="email"
-                  id="email"
-                  required
-                />
-                <svg width="18" height="24" class="form-icon">
-                  <use href="./images/icons.svg#icon-email"></use>
-                </svg></div
-            ></label>
+            <label class="form-label" for="email"> <span>Email</span></label>
+            <div class="form-wrapper">
+              <input
+                class="modal-form-input"
+                type="email"
+                id="email"
+                required
+              />
+              <svg width="18" height="24" class="form-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-group">
             <label for="comment" class="form-label">
